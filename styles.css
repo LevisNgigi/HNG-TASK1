@@ -1,0 +1,57 @@
+/* Style the container for all content */
+.container {
+    text-align: center;
+    margin: 50px;
+}
+
+/* Style the Slack name */
+h1[data-testid="slackUserName"] {
+    font-size: 24px;
+    color: #333; /* Change color as desired */
+}
+
+/* Style the Slack profile picture */
+img[data-testid="slackDisplayImage"] {
+    max-width: 200px;
+    border-radius: 50%;
+    border: 3px solid #333; /* Add a border as desired */
+}
+
+/* Style the current day of the week */
+p[data-testid="currentDayOfTheWeek"] {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff; /* Change color as desired */
+}
+
+/* Style the current UTC time */
+p[data-testid="currentUTCTime"] {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Change color as desired */
+}
+
+/* Style the track */
+p[data-testid="myTrack"] {
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745; /* Change color as desired */
+}
+
+/* Style the GitHub link */
+a[data-testid="githubURL"] {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #333; /* Change color as desired */
+    border: 2px solid #333; /* Add a border as desired */
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a[data-testid="githubURL"]:hover {
+    background-color: #333; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}
